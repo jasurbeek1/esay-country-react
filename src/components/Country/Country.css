@@ -1,0 +1,42 @@
+.container{
+    max-width: 1440px;
+    margin:0 auto;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+
+input{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-left: 200px;
+}
+ul{
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    /* gap: 20px; */
+    width: 200px;
+    >p{
+        font-size: 20px;
+    }
+    >img{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+}
